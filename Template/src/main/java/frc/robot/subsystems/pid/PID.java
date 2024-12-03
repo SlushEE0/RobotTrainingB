@@ -11,7 +11,7 @@ import edu.wpi.first.wpilibj.simulation.FlywheelSim;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class PID extends SubsystemBase {
-  private double MaxMotorVolts = 12;
+  private double MAX_MOTOR_VOLTS = 12;
 
   private FlywheelSim wheel = new FlywheelSim(DCMotor.getNEO(1), 6.75, 0.04);
 
