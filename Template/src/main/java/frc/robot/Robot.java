@@ -5,6 +5,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import frc.robot.commands.pid.PIDDefaultCommand;
+import frc.robot.subsystems.Testing;
 import frc.robot.subsystems.pid.PID;
 import frc.robot.subsystems.swerve.Swerve;
 
@@ -16,6 +17,7 @@ public class Robot extends TimedRobot {
 
   public static Swerve swerve = new Swerve();
   public static PID pidExample = new PID();
+  public static Testing testing = new Testing();
 
   private RobotContainer m_robotContainer;
 
