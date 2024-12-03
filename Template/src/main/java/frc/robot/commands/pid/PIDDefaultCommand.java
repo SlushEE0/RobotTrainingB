@@ -7,14 +7,6 @@ import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.Robot;
 import frc.robot.subsystems.pid.PID;
 
-/***
- * Default command to control the swerve subsystem with joysticks
- * 
- * @author Noah Simon
- * @author Raadwan Masum
- * @author Rohin Sood
- */
-
 public class PIDDefaultCommand extends Command {
   private boolean isFinished = false;
 
@@ -35,7 +27,7 @@ public class PIDDefaultCommand extends Command {
   public void execute() {
     SmartDashboard.putNumber("Wheel Desired Angle", Units.radiansToDegrees(WHEEL_DESIRED_ANGLE));
 
-    
+
   }
 
   @Override
