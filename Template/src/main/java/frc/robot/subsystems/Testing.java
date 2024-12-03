@@ -5,10 +5,6 @@
 package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
-import edu.wpi.first.math.system.plant.DCMotor;
-import edu.wpi.first.math.util.Units;
-import edu.wpi.first.wpilibj.simulation.FlywheelSim;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Testing extends SubsystemBase {
   @Override
